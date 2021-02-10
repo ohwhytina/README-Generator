@@ -1,15 +1,15 @@
 
-# README GENERATOR
+# README GENERATOR FILE
 ## Description 
-create read me
+Create a read me file 
 ## Table of Contents
-* ![Description](https://github.com/ohwhytina/readme#description)
-* ![Installation](https://github.com/ohwhytina/readme#installation)
-* ![Usage](https://github.com/ohwhytina/readme#Usage)
-* ![License](https://github.com/ohwhytina/readme#License)
-* ![Tests](https://github.com/ohwhytina/readme#Tests)
-* ![Contributor](https://github.com/ohwhytina/readme)
-* ![Questions](https://github.com/ohwhytina/readme#Questions)
+* ![Description](https://github.com/ohwhytina/README-Generator#description)
+* ![Installation](https://github.com/ohwhytina/README-Generator#installation)
+* ![Usage](https://github.com/ohwhytina/README-Generator#Usage)
+* ![License](https://github.com/ohwhytina/README-Generator#License)
+* ![Tests](https://github.com/ohwhytina/README-Generator#Tests)
+* ![Contributor](https://github.com/ohwhytina/README-Generator)
+* ![Questions](https://github.com/ohwhytina/README-Generator#Questions)
 
 ## Installation
 
@@ -18,7 +18,7 @@ create read me
 
 
 ## License
-Apache 2.0
+
 
 ## Tests
 
