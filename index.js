@@ -8,7 +8,7 @@ const promptQuestions = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'username',
             message: 'What is your Github Username? (Required)',
             validate: githubInput => {
                 if (githubInput) {
@@ -21,7 +21,7 @@ const promptQuestions = () => {
           },
           {
             type: 'input',
-            name: 'name',
+            name: 'reponame',
             message: 'What is the name of your Github repo? (Required)',
             validate: gitrepoInput => {
                 if (gitrepoInput) {
@@ -34,7 +34,7 @@ const promptQuestions = () => {
           },
           {
             type: 'input',
-            name: 'name',
+            name: 'title',
             message: 'What is the title of your project? (Required)',
             validate: titleInput => {
                 if (titleInput) {
@@ -84,12 +84,10 @@ const promptQuestions = () => {
             name: 'contributor',
             message: 'Who are the contributors?',
         },
-
     ]);
 };
 
-promptUser()
-    .then(promptQuestions)
+promptQuestions()
     .then(readmeData => {
         const pageHTML = generatePage(readmeData);
 
