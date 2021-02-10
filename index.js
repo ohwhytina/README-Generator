@@ -34,6 +34,11 @@ const promptQuestions = () => {
           },
           {
             type: 'input',
+            name: 'email',
+            message: 'Please enter your email address:',
+          },
+          {
+            type: 'input',
             name: 'title',
             message: 'What is the title of your project? (Required)',
             validate: titleInput => {
@@ -77,13 +82,14 @@ const promptQuestions = () => {
         {
             type: "input",
             name: "test",
-            message: "Is there a test included?"
+            message: "Provide any test instruction (if any)"
         },
         {
             type: 'input',
             name: 'contributor',
             message: 'Who are the contributors?',
         },
+        
     ]);
 };
 

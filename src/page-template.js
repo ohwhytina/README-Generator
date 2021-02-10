@@ -6,8 +6,6 @@
   
 return `
 # ${title}
-## Description 
-${description}
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -16,6 +14,9 @@ ${description}
 * [Tests](#Tests)
 * [Contributor](#Contributor)
 * [Questions](#Questions)
+
+## Description 
+${description}
 
 ## Installation
 ${installation}
@@ -33,7 +34,9 @@ ${test}
 ${contributor}
 
 ## Questions 
-Contact me with any questions: [Github](https://github.com/${header.username})
+Contact me with any questions: 
+* [Github](https://github.com/${header.username})
+* [Email](mailto:${header.email})
 `
 
   }
