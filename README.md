@@ -1,21 +1,21 @@
 
-# README GENERATOR FILE
+# README FILE
 ## Description 
-Create a read me file 
+Generator a readme file with index.js
 ## Table of Contents
-* ![Description](https://github.com/ohwhytina/README-Generator#description)
-* ![Installation](https://github.com/ohwhytina/README-Generator#installation)
-* ![Usage](https://github.com/ohwhytina/README-Generator#Usage)
-* ![License](https://github.com/ohwhytina/README-Generator#License)
-* ![Tests](https://github.com/ohwhytina/README-Generator#Tests)
-* ![Contributor](https://github.com/ohwhytina/README-Generator)
-* ![Questions](https://github.com/ohwhytina/README-Generator#Questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Tests](#Tests)
+* [Contributor](#Contributor)
+* [Questions](#Questions)
 
 ## Installation
-
+* npm init & npm install inquirer
 
 ## Usage
-
+Run terminal/command at your project, "node index.js", answer prompt questions
 
 ## License
 
@@ -27,4 +27,4 @@ Create a read me file
 Tina
 
 ## Questions 
-Contact me with any questions: ![Github](https://github.com/ohwhytina)
+Contact me with any questions: [Github](https://github.com/ohwhytina)

@@ -9,13 +9,13 @@ return `
 ## Description 
 ${description}
 ## Table of Contents
-* ![Description](https://github.com/${header.username}/${header.reponame}#description)
-* ![Installation](https://github.com/${header.username}/${header.reponame}#installation)
-* ![Usage](https://github.com/${header.username}/${header.reponame}#Usage)
-* ![License](https://github.com/${header.username}/${header.reponame}#License)
-* ![Tests](https://github.com/${header.username}/${header.reponame}#Tests)
-* ![Contributor](https://github.com/${header.username}/${header.reponame})
-* ![Questions](https://github.com/${header.username}/${header.reponame}#Questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Tests](#Tests)
+* [Contributor](#Contributor)
+* [Questions](#Questions)
 
 ## Installation
 ${installation}
@@ -33,7 +33,7 @@ ${test}
 ${contributor}
 
 ## Questions 
-Contact me with any questions: ![Github](https://github.com/${header.username})
+Contact me with any questions: [Github](https://github.com/${header.username})
 `
 
   }
